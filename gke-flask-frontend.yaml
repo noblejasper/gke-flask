@@ -18,7 +18,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: PROCESSES
-          value: gke-flask
+          value: gkeflask
         ports:
         - name: http-server
           containerPort: 8080
